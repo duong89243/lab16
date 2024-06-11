@@ -1,0 +1,501 @@
+body{
+    margin: 0;
+}
+.boxtop{
+    float: left;
+    width: 100%;
+    background-color: #333;
+    height: 40px;
+}
+.boxlogo{
+    float: left;
+    width: 100%;
+    border-bottom: 1px #ccc solid;
+   
+    text-align: center;
+}
+.boxmenu{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+   
+}
+
+.boxtopcenter{
+    width: 70%;
+    margin: 0 auto;
+}
+.boxtopright{
+float: right;
+height: 50px;
+line-height: 50px;
+
+}
+.boxtopleft{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: #ffff
+    ;
+}
+.boxtopright a, footer a {
+    color: #ffff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.boxtopright a:hover, footer a:hover {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: #333;
+    min-height: 150px;
+}
+article{
+    float: left;
+    width: 100%;
+    min-height: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.boxpro{
+    float: left;
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boximg{
+    width: 100%;
+}
+.boximg img{
+    width: 100%;
+}
+.boxpro a{
+    color: #333;
+    text-decoration: none;
+}
+.boxpro a:hover{
+    
+   color: blue;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+ul li:hover ul{
+    display: block;
+    position: absolute;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+ul li ul{
+    display: none;
+    background-color: #eeee;
+}
+ul li ul li{
+    float: none;
+    border-bottom: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    padding: 5px 20px;
+}
+ul li ul li:first-child{
+    border-top: 1px #ccc solid;
+}
+
+.row{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.boxcenter2{
+    width: 50%;
+}
+.boxfooter1{
+    width: 13%;
+    float: left;
+   
+}
+.boxfooter2{
+    width: 28%;
+    float: left;
+}
+.mrr2{
+    margin-right: 2%;
+}
+.boxfooter3{
+    width: 50%;
+    float: left;
+}
+.textcenter{
+    text-align: center;
+}
+.colocr{
+    color: #fff;
+}
+.mrb10{
+    margin-bottom: 15px;
+}
+
+.boxpro:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease; 
+}
+
+.boxpro a:hover {
+    color: #ff0000;
+    transition: color 0.3s ease; 
+}
+.boxdangky{
+    background-color: #eeee;
+    border-radius: 10px;
+    padding: 30px;
+}
+.boxdangkyl{
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+}
+.boxdangkyr{
+    float: left;
+    width: 40%;
+}
+.boxdangkyr img {
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 10px 0px;
+}
+td:first-child{
+    width: 30%;
+}
+input{
+    width: 100%;
+}
+.boxpro strong {
+    color: #ff0000; 
+}
+.boximg img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.boximg img:hover {
+    transform: scale(1.2); 
+}
+.view-details {
+    display: none; 
+    position: absolute; 
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.boxpro:hover .view-details {
+    display: inline-block;
+}
+.boxpro {
+    text-align: center; /* Căn giữa nội dung trong hộp sản phẩm */
+}
+#giohang{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    background-color: wheat;
+}
+.cart{
+    margin-left: 120vh;
+text-decoration: underline;
+}
+.cart-container{
+    box-shadow: 0px 0px 5px grey;
+    width: 1250px;
+    height: 1800px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+    border-radius: 3px;
+    transition: 0.8s ease;
+
+}
+
+
+
+.cart-container:hover{
+    box-shadow: 0px 0px 12px grey;
+}
+                                            /* GIo Hang TITLE */
+.cart-form1{
+    width: 1250px;
+    height: 1650px;
+    position: relative;
+}
+.footer-container{
+    position: sticky;
+    bottom: 0px;
+    border: solid 1px rgb(45, 29, 29);
+    width: 1249px; 
+    height: 150px;
+    background-color: white;
+    z-index: 100; /* Đảm bảo nó nằm trên các phần tử khác khi dính */
+}
+
+.table-form1{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.row-title{
+    width: 1250px;
+    height: 70px;
+    background-color: white;
+    outline: solid 1px grey;   
+    font-weight: bold;
+    font-size: 14px; 
+}
+tr.row-title .td1{
+    padding-right: 210px;
+}
+tr.row-title .td1_1{
+    padding-left: 154px;
+    padding-right: 11px;
+}
+
+/* ROW 1*/
+.cart-form2{
+    width: 1220px;
+}
+.table-form-2{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.row1{
+    position: relative;
+    height: 170px;
+    background-color: white;
+    outline: solid 1px grey;   
+    font-weight: bold;
+    font-size: 14px; 
+}
+tr.row1 .td_image{
+    padding-right: 300px;
+
+}
+tr.row1 .td_row1{
+    padding-left: 122px;
+    padding-right: 37px;
+
+}
+.td_image img{
+    width: 80px;
+    
+    position:absolute;
+    top: 55px;
+    left: 110px;
+    rotate: left;
+}
+.td_row1 input{
+    width: 56px;
+}
+/* Form Table Footer*/
+.footer-form{
+    border-collapse: collapse;
+    width: 1246px; 
+    height: 150px;
+}
+.footer-row1 input[type="text"]{
+    outline: none;
+}
+.footer-row1 input[type="text"]:focus{
+    outline: solid 1px grey;
+    border-radius: 1px;
+}
+.footer-row1_column2{
+    text-align: right;
+}
+.footer-form input.soluong{
+    width: 30px;
+    padding-left: 11px;
+}
+.footer-row3{
+    text-align: right;
+    height: 20px;
+    border-top: dotted grey 1px;
+}
+.button-row3{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 30px;
+    transition: 0.8s ease;
+}
+.button-row3:hover{
+    background-color: #9d9d9d;
+    transition: 0.8s ease;
+}
+/* footer Information*/
+.testimonial{
+    margin: 10px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.contact-info{
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Add a light background color */
+}
+
+.container {
+    max-width: 1200px; /* Set a max-width for better readability */
+    margin: 0 auto; /* Center the content */
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Cart Container Styles */
+.cart-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Cart Form Styles */
+.cart-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cart-form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-form table th,
+.cart-form table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-form table th {
+    background-color: #f2f2f2;
+}
+
+.cart-form table tr:last-child td {
+    border-bottom: none;
+}
+
+.cart-form input[type="number"] {
+    width: 50px;
+    padding: 5px;
+}
+
+.cart-form .button-row {
+    text-align: right;
+}
+
+.cart-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-form button:hover {
+    background-color: #555;
+}

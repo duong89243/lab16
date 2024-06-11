@@ -1,0 +1,371 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 5px 0 0 5px;
+}
+
+.product-details {
+    padding: 20px;
+    flex: 1;
+}
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product-rating span:first-child {
+    color: #f39c12;
+    font-size: 18px;
+}
+
+.product-rating span:last-child {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.product-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+
+.product-options {
+    margin-bottom: 20px;
+}
+
+.product-options label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.product-options select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #d35400;
+}
+.like-container {
+    display: flex;
+    margin: 20px;
+    
+
+}
+
+#like-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+   
+}
+
+#like-button.liked {
+    background-color: #28a745;
+}
+
+#like-button:hover {
+    background-color:  #e67e22;
+}
+
+#like-count {
+    font-size: 1.2em;
+    margin-left: 30px;
+    
+}
+body{
+    margin: 0;
+}
+.boxtop{
+    float: left;
+    width: 100%;
+    background-color: #333;
+    height: 40px;
+}
+.boxlogo{
+    float: left;
+    width: 100%;
+    border-bottom: 1px #ccc solid;
+   
+    text-align: center;
+}
+.boxmenu{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+   
+}
+
+.boxtopcenter{
+    width: 70%;
+    margin: 0 auto;
+}
+.boxtopright{
+float: right;
+height: 50px;
+line-height: 50px;
+
+}
+.boxtopleft{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: #ffff
+    ;
+}
+.boxtopright a, footer a {
+    color: #ffff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.boxtopright a:hover, footer a:hover {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+footer {
+   float: left;
+    width: 100%;
+    background-color: #333;
+    padding: 20px 0px;
+    min-height: 150px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+article{
+    float: left;
+    width: 100%;
+    min-height: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.boxpro{
+    float: left;
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boximg{
+    width: 100%;
+}
+.boximg img{
+    width: 100%;
+}
+.boxpro a{
+    color: #333;
+    text-decoration: none;
+}
+.boxpro a:hover{
+    
+   color: blue;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+ul li:hover ul{
+    display: block;
+    position: absolute;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+ul li ul{
+    display: none;
+    background-color: #eeee;
+}
+ul li ul li{
+    float: none;
+    border-bottom: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    padding: 5px 20px;
+}
+ul li ul li:first-child{
+    border-top: 1px #ccc solid;
+}
+
+.row{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.boxcenter2{
+    width: 50%;
+}
+.boxfooter1{
+    width: 30%;
+    float: left;
+   
+}
+.boxfooter2{
+    width: 50%;
+    float: left;
+}
+.mrr2{
+    margin-right: 2%;
+}
+.boxfooter3{
+    width: 50%;
+    float: left;
+    
+   
+}
+.textcenter{
+    text-align: center;
+}
+.colocr{
+    color: #fff;
+}
+.mrb10{
+    margin-bottom: 15px;
+}
+
+.boxpro:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease; 
+}
+
+.boxpro a:hover {
+    color: #ff0000;
+    transition: color 0.3s ease; 
+}
+.boxdangky{
+    background-color: #eeee;
+    border-radius: 10px;
+    padding: 30px;
+}
+.boxdangkyl{
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+}
+.boxdangkyr{
+    float: left;
+    width: 40%;
+}
+.boxdangkyr img {
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 10px 0px;
+}
+td:first-child{
+    width: 30%;
+}
+input{
+    width: 100%;
+}
+.boxpro strong {
+    color: #ff0000; 
+}
+.boximg img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.boximg img:hover {
+    transform: scale(1.2); 
+}
+.view-details {
+    display: none; 
+    position: absolute; 
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.boxpro:hover .view-details {
+    display: inline-block;
+}
+.boxpro {
+    text-align: center; /* Căn giữa nội dung trong hộp sản phẩm */
+}
+#giohang{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    background-color: wheat;
+}
+.cart{
+    margin-left: 120vh;
+text-decoration: underline;
+}
